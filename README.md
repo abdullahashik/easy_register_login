@@ -4,7 +4,7 @@ This is a easy project demonstrating user registration and login
 <h1>Database setup</h1>
 You will be needing a database called thecodders and a table named registration
 run the following query to import these and insert some values,
-
+<pre>
 -- phpMyAdmin SQL Dump
 -- version 4.1.12
 -- http://www.phpmyadmin.net
@@ -26,7 +26,7 @@ SET time_zone = "+00:00";
 --
 -- Table structure for table `registration`
 --
-<pre>
+
 CREATE TABLE IF NOT EXISTS `registration` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `firstname` varchar(50) NOT NULL,
@@ -37,7 +37,7 @@ CREATE TABLE IF NOT EXISTS `registration` (
   `birthdate` date NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=14 ;
-</pre>
+
 --
 -- Dumping data for table `registration`
 --
@@ -45,3 +45,5 @@ CREATE TABLE IF NOT EXISTS `registration` (
 INSERT INTO `registration` (`id`, `firstname`, `lastname`, `gender`, `email`, `password`, `birthdate`) VALUES
 (1, 'Nasrin', 'Kona', 'female', 'kona@example.com', '1c8695ee293a4c929cfc9356ec63f4fab3953293', '0000-00-00'),
 (2, 'Abdullah', 'Arefin', 'male', 'ashik@bluehillsit.com', 'fea807003421096a34a8482ac2694737de9abb08', '1992-09-16');
+
+</pre>
