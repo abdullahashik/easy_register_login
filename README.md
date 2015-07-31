@@ -26,7 +26,7 @@ SET time_zone = "+00:00";
 --
 -- Table structure for table `registration`
 --
-
+<pre>
 CREATE TABLE IF NOT EXISTS `registration` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `firstname` varchar(50) NOT NULL,
@@ -37,7 +37,7 @@ CREATE TABLE IF NOT EXISTS `registration` (
   `birthdate` date NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=14 ;
-
+</pre>
 --
 -- Dumping data for table `registration`
 --
