@@ -43,5 +43,5 @@ CREATE TABLE IF NOT EXISTS `registration` (
 --
 
 INSERT INTO `registration` (`id`, `firstname`, `lastname`, `gender`, `email`, `password`, `birthdate`) VALUES
-(1, 'Nasrin', 'Kona', 'female', 'nasrinkona@outlook.com', '1c8695ee293a4c929cfc9356ec63f4fab3953293', '0000-00-00'),
+(1, 'Nasrin', 'Kona', 'female', 'kona@example.com', '1c8695ee293a4c929cfc9356ec63f4fab3953293', '0000-00-00'),
 (2, 'Abdullah', 'Arefin', 'male', 'ashik@bluehillsit.com', 'fea807003421096a34a8482ac2694737de9abb08', '1992-09-16');
