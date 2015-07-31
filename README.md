@@ -50,7 +50,5 @@ INSERT INTO `registration` (`id`, `firstname`, `lastname`, `gender`, `email`, `p
 
 <h3>Help</h3>
 <p>If you need any help or have any questions then feel free to ask me...</p>
-<form>
-<input type='text' name='emailfrom' placeholder='type your email' />
-<input type='submit' name='submit' value='send'/>
-</form>
+<a href="mailto:abdullahilashik@gmail.com?Subject=Github Easy register and login" target="_top">Send Mail</a>
+
