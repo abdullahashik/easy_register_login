@@ -1,4 +1,4 @@
-# easy_register_login
+<h1>Easy Register and Login</h1>
 This is a easy project demonstrating user registration and login
 
 <h1>Database setup</h1>
@@ -47,3 +47,10 @@ INSERT INTO `registration` (`id`, `firstname`, `lastname`, `gender`, `email`, `p
 (2, 'Abdullah', 'Arefin', 'male', 'ashik@bluehillsit.com', 'fea807003421096a34a8482ac2694737de9abb08', '1992-09-16');
 
 </pre>
+
+<h3>Help</h3>
+<p>If you need any help or have any questions then feel free to ask me...</p>
+<form>
+<input type='text' name='emailfrom' placeholder='type your email' />
+<input type='submit' name='submit' value='send'/>
+</form>
